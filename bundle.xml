@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <adapt_framework>
     <bundle>
-        <name>Font Awesome</name>
-        <type>Extension</type>
+        <name>font_awesome</name>
+		<label>Font Awesome</label>
+        <type>framework</type>
         <version>4.3.0</version>
-        <namespace>/extensions/font_awesome</namespace>
+        <namespace>/frameworks/font_awesome</namespace>
         <description></description>
-        <copyright>2015 - Dave Gandy</copyright>
+        <copyright>2015 Dave Gandy</copyright>
         <license>MIT</license>
         <website>http://www.FontAwesome.io</website>
-	<installed>Yes</installed>
+		<depends_on>
+			<bundle>adapt</bundle>
+		</depends_on>
     </bundle>
 </adapt_framework>
