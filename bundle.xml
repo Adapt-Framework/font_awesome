@@ -5,13 +5,15 @@
 		<label>Font Awesome</label>
         <type>framework</type>
         <version>4.3.0</version>
-        <namespace>/frameworks/font_awesome</namespace>
+        <namespace>\font_awesome</namespace>
         <description></description>
         <copyright>2015 Dave Gandy</copyright>
         <license>MIT</license>
         <website>http://www.FontAwesome.io</website>
 		<depends_on>
-			<bundle>adapt</bundle>
+			<bundle>
+				<name>adapt</name>
+			</bundle>
 		</depends_on>
     </bundle>
 </adapt_framework>
