@@ -2,10 +2,12 @@
 <adapt_framework>
     <bundle>
         <name>font_awesome</name>
-		<label>Font Awesome</label>
-        <type>framework</type>
+        <label>Font Awesome</label>
+        <type>css_framework</type>
         <version>4.3.0</version>
         <namespace>\font_awesome</namespace>
+        <version_status>release</version_status>
+        <availability>public</availability>
         <description></description>
         <copyright>2015 Dave Gandy</copyright>
         <license>MIT</license>
