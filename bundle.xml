@@ -5,6 +5,8 @@
         <label>Font Awesome</label>
         <type>css_framework</type>
         <version>4.3.0</version>
+        <version_status>release</version_status>
+        <availability>public</availability>
         <namespace>\font_awesome</namespace>
         <version_status>release</version_status>
         <availability>public</availability>
@@ -12,10 +14,10 @@
         <copyright>2015 Dave Gandy</copyright>
         <license>MIT</license>
         <website>http://www.FontAwesome.io</website>
-		<depends_on>
-			<bundle>
-				<name>adapt</name>
-			</bundle>
-		</depends_on>
+        <depends_on>
+            <bundle>
+                    <name>adapt</name>
+            </bundle>
+        </depends_on>
     </bundle>
 </adapt_framework>
