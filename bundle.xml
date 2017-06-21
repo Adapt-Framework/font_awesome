@@ -4,7 +4,7 @@
         <name>font_awesome</name>
         <label>Font Awesome</label>
         <type>css_framework</type>
-        <version>4.3.0</version>
+        <version>1.0.0</version>
         <version_status>release</version_status>
         <availability>public</availability>
         <namespace>\font_awesome</namespace>
@@ -16,7 +16,8 @@
         <website>http://www.FontAwesome.io</website>
         <depends_on>
             <bundle>
-                    <name>adapt</name>
+                <name>adapt</name>
+                <version>2.0</version>
             </bundle>
         </depends_on>
     </bundle>
